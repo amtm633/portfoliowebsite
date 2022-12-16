@@ -1,0 +1,92 @@
+html{
+	background-color: #f6f1ee;
+	
+}
+	
+	header {
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #af8a71;
+	background-color: #f6e8df;
+	text-align: center;
+}
+
+.site-nav li {
+	list-style: none;
+	float:left;
+	margin-right: 10px;
+}
+
+.site-nav a {
+	text-decoration: none;
+	color:#f6e8df;
+	background-color: #af8a71;
+	padding: 8px;
+	border-radius: 5px;
+	padding-bottom: 10px;
+	font-family: 'Times New Roman', Times, serif;
+	
+	}
+
+	a:hover{
+		background-color: #6c5647;
+		color:#f6e8df
+	}
+  .container p{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  h1{
+	font-family: 'Times New Roman', Times, serif;
+  }
+ 
+
+.row{
+	width: 1300px;
+	padding:20px 10px;
+	clear:both;
+	margin-left:150px;
+	margin-top:30px;
+}
+	
+
+.polaroid {
+	flex-basis: auto;
+	width: 20%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+	margin-top:30px;
+	float:left;
+	margin-right:30px;
+	margin-left:30px;
+	border-radius: 10px;
+	display:block;
+}
+.polaroid:hover{
+	transform: scale(1.01);
+	transition:0.5s;
+}
+.polaroid a{
+	text-decoration: none;
+}
+.box {
+	color:#af8a71;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	padding: 10px 20px;
+padding-right: 20px;}
+
+
+footer{
+	clear:left;
+	justify-content: center;
+	text-align:center;
+    margin-top:10px;
+	color:#af8a71;
+	padding-left:20px;
+	padding-bottom:10px;
+	padding-top:10px;
+	background-color: #f6e8df;
+}
